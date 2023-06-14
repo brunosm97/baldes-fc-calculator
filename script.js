@@ -42,7 +42,7 @@ const makeResult = () => {
       finalResult = (index * 4) + defeats;
 
       if (finalResult >= pointsMissing) {
-        return resultP.innerText = `Você precisa de ${index} vitórias e ${defeats} derrotas para alcançar ${pointsMissing} pontos.`;
+        return resultP.innerText = `Você precisa de ${index} vitórias e ${defeats} derrotas para alcançar ${deisredPoints} pontos.`;
       }
     }
     return resultP.innerHTML = `Você não consegue alcançar ${pointsMissing} pontos em ${matchesLeft} partidas mesmo que vença todos os jogos. 
