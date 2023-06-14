@@ -45,7 +45,7 @@ const makeResult = () => {
         return resultP.innerText = `Você precisa de ${index} vitórias e ${defeats} derrotas para alcançar ${deisredPoints} pontos.`;
       }
     }
-    return resultP.innerHTML = `Você não consegue alcançar ${pointsMissing} pontos em ${matchesLeft} partidas mesmo que vença todos os jogos. 
+    return resultP.innerHTML = `Você não consegue alcançar ${deisredPoints} pontos em ${matchesLeft} partidas mesmo que vença todos os jogos. 
                                 O máximo de pontos que você consegue alcançar é ${parseInt(currentPoints) + (4 * matchesLeft)}.`;
 
   } catch (error) {
